@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Synthetic industrial-web A/B experiment row",
+  "description": "Public synthetic demonstration data only; no real users or historical course rows.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "unit_id",
+    "treatment",
+    "exposed",
+    "exposure_count",
+    "converted",
+    "data_source",
+    "scenario"
+  ],
+  "properties": {
+    "unit_id": {"type": "string", "pattern": "^SYN-[0-9]{6}$"},
+    "treatment": {"type": "string", "enum": ["control", "treatment"]},
+    "exposed": {"type": "integer", "const": 1},
+    "exposure_count": {"type": "integer", "const": 1},
+    "converted": {"type": "integer", "enum": [0, 1]},
+    "data_source": {"type": "string", "const": "synthetic"},
+    "scenario": {"type": "string", "const": "near_null_effect"}
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "number_of_units": 10000,
+  "treatment_fraction": 0.5,
+  "baseline_conversion_probability": 0.1,
+  "treatment_effect_absolute": 0.005,
+  "random_seed": 20260824,
+  "scenario_name": "near_null_effect"
+}
