@@ -115,7 +115,7 @@ See [docs/reproducibility.md](docs/reproducibility.md) for outputs and the froze
 - 14/14 tests pass after professionalization;
 - both notebooks execute top-to-bottom in fresh namespaces;
 - z statistic, p-value, and Newcombe interval cross-checked by a separate in-repository standard-library implementation;
-- the internal Module 7.5B audit found no evidence of seed shopping or result-dependent generation;
+- the reproducibility review found no evidence of seed shopping or result-dependent generation;
 - historical and synthetic data separation verified.
 
 ## Limitations
@@ -157,6 +157,6 @@ The project is an expanded portfolio rebuild derived from graduate coursework. H
 - Reproducible simulation and Python
 - Statistical communication and claim discipline
 
-## Publication status
+## Rights and usage
 
-Module 8A granted interim approval after the recorded prepublication edits, pending the final five-project Module 8B audit. Nothing has been published, and final code, synthetic-data, figure, and documentation licensing remain owner decisions.
+This repository is public for portfolio review. No public license has been assigned; licensing for the code, synthetic data, figures, and documentation remains an owner decision. See [LICENSE_STATUS.md](LICENSE_STATUS.md) for the current rights posture.
